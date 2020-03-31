@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:  0;
+    background: #eee;
+    height: auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+main{
+    max-width: 650px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+        -30px 0px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    transition: background 500ms ease;
+}
+
+a:hover{
+    color: white;
+    background-color: black ;
+    font-size: 15px;
+}
+
+
+#landing-page{
+    display: flex;
+
+}
+
+.landing-text{
+    flex: 1;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+
+
+.landing-image{
+    flex: 1;
+}
+
+#preview-head{
+    background: black;
+    padding: 15px 0;
+    color: #f4f4f4;
+
+
+}
+#preview-head h2{
+
+    padding: 10px;
+
+
+
+}
+
+.preview-1-text h2{
+    padding: 20px 0;
+    font-weight: bold;
+    
+    
+}
+
+.preview-2-text h2{
+    padding: 20px 0;
+    font-weight: bold;
+    
+    
+}
+
+.preview-3-text h2{
+    padding: 20px 0;
+    font-weight: bold;
+    
+    
+}
+
+.gallery a{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+#featbar h2{
+    padding: 10px;
+    background: black;
+    padding: 15px 0;
+    color: #f4f4f4;
+}
+
+.feat1 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+      
+}
+
+.feat2 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+      
+}
+
+.feat3 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+      
+}
+
+
+#founder .suchat1 .suchatpic{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 50%;
+    border: 1px solid black;
+    padding: 50px 0;
+    border-radius: 130px;
+    
+    background-image: url('../Images/2.jpg');
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%
+}
+
+
+
+@media (max-width: 500px) {
+    #landing-page {
+      display: block;
+
+
+    }
+    #landing-image img{
+        padding-top: 100px;
+    }
+}
+  
